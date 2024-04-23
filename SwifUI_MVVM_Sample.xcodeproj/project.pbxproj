@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6FCC6842BD612D300485B8E /* SwifUI_MVVM_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6832BD612D300485B8E /* SwifUI_MVVM_SampleApp.swift */; };
-		A6FCC6862BD612D300485B8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6852BD612D300485B8E /* ContentView.swift */; };
+		A6FCC6842BD612D300485B8E /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6832BD612D300485B8E /* SampleApp.swift */; };
+		A6FCC6862BD612D300485B8E /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6852BD612D300485B8E /* StoryView.swift */; };
 		A6FCC6882BD612D500485B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FCC6872BD612D500485B8E /* Assets.xcassets */; };
 		A6FCC68B2BD612D500485B8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FCC68A2BD612D500485B8E /* Preview Assets.xcassets */; };
+		A6FCC6922BD6371900485B8E /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6912BD6371900485B8E /* Story.swift */; };
+		A6FCC6942BD6382300485B8E /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6932BD6382300485B8E /* StoryCell.swift */; };
+		A6FCC6962BD6385400485B8E /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6952BD6385400485B8E /* StoryViewModel.swift */; };
+		A6FCC6B02BD65F2800485B8E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A6FCC6AF2BD65F2800485B8E /* Alamofire */; };
+		A6FCC6B32BD756A300485B8E /* StoryKid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6B22BD756A300485B8E /* StoryKid.swift */; };
+		A6FCC6B72BD75B4C00485B8E /* StoryKidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6B62BD75B4C00485B8E /* StoryKidCell.swift */; };
+		A6FCC6BA2BD75C9B00485B8E /* StringProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6B92BD75C9B00485B8E /* StringProtocol+Extension.swift */; };
+		A6FCC6BC2BD75CB400485B8E /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6BB2BD75CB400485B8E /* Text+Extension.swift */; };
+		A6FCC6BE2BD75D3C00485B8E /* StoryKidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6BD2BD75D3C00485B8E /* StoryKidView.swift */; };
+		A6FCC6C12BD7911200485B8E /* StoryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6C02BD7911200485B8E /* StoryApi.swift */; };
+		A6FCC6C32BD793C000485B8E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6C22BD793C000485B8E /* ErrorView.swift */; };
+		A6FCC6C52BD79E3F00485B8E /* StoryKidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC6C42BD79E3F00485B8E /* StoryKidViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6FCC6802BD612D300485B8E /* SwifUI_MVVM_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifUI_MVVM_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6FCC6832BD612D300485B8E /* SwifUI_MVVM_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUI_MVVM_SampleApp.swift; sourceTree = "<group>"; };
-		A6FCC6852BD612D300485B8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6FCC6832BD612D300485B8E /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
+		A6FCC6852BD612D300485B8E /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		A6FCC6872BD612D500485B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6FCC68A2BD612D500485B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6FCC6912BD6371900485B8E /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		A6FCC6932BD6382300485B8E /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		A6FCC6952BD6385400485B8E /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		A6FCC6972BD6419700485B8E /* SwifUI-MVVM-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwifUI-MVVM-Sample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A6FCC6B22BD756A300485B8E /* StoryKid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryKid.swift; sourceTree = "<group>"; };
+		A6FCC6B62BD75B4C00485B8E /* StoryKidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryKidCell.swift; sourceTree = "<group>"; };
+		A6FCC6B92BD75C9B00485B8E /* StringProtocol+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extension.swift"; sourceTree = "<group>"; };
+		A6FCC6BB2BD75CB400485B8E /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		A6FCC6BD2BD75D3C00485B8E /* StoryKidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryKidView.swift; sourceTree = "<group>"; };
+		A6FCC6C02BD7911200485B8E /* StoryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryApi.swift; sourceTree = "<group>"; };
+		A6FCC6C22BD793C000485B8E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A6FCC6C42BD79E3F00485B8E /* StoryKidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryKidViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FCC6B02BD65F2800485B8E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +76,14 @@
 		A6FCC6822BD612D300485B8E /* SwifUI_MVVM_Sample */ = {
 			isa = PBXGroup;
 			children = (
-				A6FCC6832BD612D300485B8E /* SwifUI_MVVM_SampleApp.swift */,
-				A6FCC6852BD612D300485B8E /* ContentView.swift */,
+				A6FCC6832BD612D300485B8E /* SampleApp.swift */,
+				A6FCC6B52BD756CA00485B8E /* Views */,
+				A6FCC6B42BD756B000485B8E /* ViewModels */,
+				A6FCC6B12BD7568D00485B8E /* Models */,
+				A6FCC6BF2BD790EF00485B8E /* Networking */,
+				A6FCC6B82BD75C6F00485B8E /* Extensions */,
 				A6FCC6872BD612D500485B8E /* Assets.xcassets */,
+				A6FCC6972BD6419700485B8E /* SwifUI-MVVM-Sample-Info.plist */,
 				A6FCC6892BD612D500485B8E /* Preview Content */,
 			);
 			path = SwifUI_MVVM_Sample;
@@ -65,6 +95,53 @@
 				A6FCC68A2BD612D500485B8E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6FCC6B12BD7568D00485B8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC6912BD6371900485B8E /* Story.swift */,
+				A6FCC6B22BD756A300485B8E /* StoryKid.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6FCC6B42BD756B000485B8E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC6952BD6385400485B8E /* StoryViewModel.swift */,
+				A6FCC6C42BD79E3F00485B8E /* StoryKidViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6FCC6B52BD756CA00485B8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC6852BD612D300485B8E /* StoryView.swift */,
+				A6FCC6932BD6382300485B8E /* StoryCell.swift */,
+				A6FCC6BD2BD75D3C00485B8E /* StoryKidView.swift */,
+				A6FCC6B62BD75B4C00485B8E /* StoryKidCell.swift */,
+				A6FCC6C22BD793C000485B8E /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6FCC6B82BD75C6F00485B8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC6B92BD75C9B00485B8E /* StringProtocol+Extension.swift */,
+				A6FCC6BB2BD75CB400485B8E /* Text+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6FCC6BF2BD790EF00485B8E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC6C02BD7911200485B8E /* StoryApi.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,9 @@
 			dependencies = (
 			);
 			name = SwifUI_MVVM_Sample;
+			packageProductDependencies = (
+				A6FCC6AF2BD65F2800485B8E /* Alamofire */,
+			);
 			productName = SwifUI_MVVM_Sample;
 			productReference = A6FCC6802BD612D300485B8E /* SwifUI_MVVM_Sample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = A6FCC6772BD612D300485B8E;
+			packageReferences = (
+				A6FCC6AE2BD65F2800485B8E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A6FCC6812BD612D300485B8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FCC6862BD612D300485B8E /* ContentView.swift in Sources */,
-				A6FCC6842BD612D300485B8E /* SwifUI_MVVM_SampleApp.swift in Sources */,
+				A6FCC6862BD612D300485B8E /* StoryView.swift in Sources */,
+				A6FCC6842BD612D300485B8E /* SampleApp.swift in Sources */,
+				A6FCC6BA2BD75C9B00485B8E /* StringProtocol+Extension.swift in Sources */,
+				A6FCC6C52BD79E3F00485B8E /* StoryKidViewModel.swift in Sources */,
+				A6FCC6B32BD756A300485B8E /* StoryKid.swift in Sources */,
+				A6FCC6BC2BD75CB400485B8E /* Text+Extension.swift in Sources */,
+				A6FCC6BE2BD75D3C00485B8E /* StoryKidView.swift in Sources */,
+				A6FCC6B72BD75B4C00485B8E /* StoryKidCell.swift in Sources */,
+				A6FCC6C32BD793C000485B8E /* ErrorView.swift in Sources */,
+				A6FCC6922BD6371900485B8E /* Story.swift in Sources */,
+				A6FCC6962BD6385400485B8E /* StoryViewModel.swift in Sources */,
+				A6FCC6C12BD7911200485B8E /* StoryApi.swift in Sources */,
+				A6FCC6942BD6382300485B8E /* StoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +369,13 @@
 				DEVELOPMENT_TEAM = BBXTXXADT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifUI-MVVM-Sample-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +400,13 @@
 				DEVELOPMENT_TEAM = BBXTXXADT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifUI-MVVM-Sample-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6FCC6AE2BD65F2800485B8E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6FCC6AF2BD65F2800485B8E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6FCC6AE2BD65F2800485B8E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A6FCC6782BD612D300485B8E /* Project object */;
 }
